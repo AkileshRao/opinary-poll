@@ -7,6 +7,8 @@
 - Tailwind CSS for styling
 - Playwright for e2e testing
 
+## App screenshot
+![exampleapp](https://github.com/AkileshRao/opinary-poll/assets/42963587/79426c7e-9f68-438c-a181-c16581fae499)
 
 ## Steps to run the project
 
