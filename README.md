@@ -10,22 +10,22 @@
 
 ## Steps to run the project
 
-# Running the app
+### Running the app
 - Clone the github repo and run `npm install` or the relevant install command based on the bundler you're using(yarn or pnpm).
 - After installation, you can directly run the `npm dev` command to run the application. It'll open up a fresh instance of a poll with a set of questions.
 
-# Running the test suite
+### Running the test suite
 - Simply typing the command `npm playwright test` will run the e2e tests present inside the `/tests` folder.
 - Make sure to keep the app running on localhost:5173, for the tests to work. If you're running the app on a different port, change the first lines of each e2e test to the respective port.
 
 
 ## App functionality
 
-# Features
+### Features
 - One can vote simultaneously across different questions and on submitting the vote, it should refactor the total votes and split the count between the options.
 - Reloading the app persists the data. It's saved inside the `localstorage`. Clearing the `localstorage` resets the poll.
 
-# Adding the react widget to `html` pages
+### Adding the react widget to `html` pages
 Side note: Example HTML files that follow all the below instructions are created inside the `testhtml` folder for you to follow.
 
 - You'll first need to run the `npm build` command to build the production assets for the Poll component.
