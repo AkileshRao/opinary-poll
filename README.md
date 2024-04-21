@@ -1,4 +1,4 @@
-# opinary-poll
+# Opinary poll
 
 ## Technologies used
 - React JS as the frontend library.
@@ -43,8 +43,10 @@ Side note: Example HTML files that follow all the below instructions are created
   - Tailwind CSS has a robust set of `css` stylesets in the form of classes that makes it much easier to style DOM elements.
   - I normally prefer e2e tests to test more real-life scenarios and use cases as opposed to flaky, and sometimes redundant unit tests which is why I went with Playwright.
 - I skipped the case where you restrict someone from having the same poll on the page multiple times. Since the poll data is being passed from the client, the user has full control on what can and cannot be displayed on a page. So it did not make sense for me to add an extra, redundant check.
--    
 - Improvements
   - The way data is being passed could be more cleaner. I could've used js to handle attributes but it effectively does the same thing.
   - The app could've been structure better and could've had more modularity.
-  - Styling always can be improved with more UI/UX-friendly feedback. 
+  - Styling always can be improved with more UI/UX-friendly feedback.
+ 
+
+Feel free to raise PRs, add comments or directly reach out to me @ akileshrao19@gmail.com if you have any concerns or issues related to the project. 
